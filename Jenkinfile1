@@ -1,0 +1,9 @@
+pipeline{
+agent any
+stages{
+stage('maven Build')
+{
+sh 'mvn clean package'
+}
+}
+}
