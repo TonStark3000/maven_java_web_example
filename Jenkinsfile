@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("Bulid"){
       steps{
-          echo 'building the project1'
+          echo 'building the project12'
     }
     }
      stage("test"){
